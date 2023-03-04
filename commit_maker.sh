@@ -2,7 +2,7 @@
 
 for i in {0..7..1}
 do
-  i=$((i + 3595734))
+  i=$((i + 6595734))
 
   touch algorithm_${i}.go
   git add .
