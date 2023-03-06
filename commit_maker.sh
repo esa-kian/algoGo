@@ -1,8 +1,8 @@
 #!/bin/bash
 
-for i in {0..7..1}
+for i in {0..685..1}
 do
-  i=$((i + 6456595734))
+  i=$((i + 976947))
 
   touch algorithm_${i}.go
   git add .
