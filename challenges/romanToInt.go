@@ -28,9 +28,6 @@ func romanToInt(s string) int {
         'M': 1000,
     }
 
-    // III = 3
-    // LVIII= 58
-
     result := 0
 
     for i := 0; i < len(s); i++ {
